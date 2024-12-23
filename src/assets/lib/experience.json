@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "company": "CULQI (Payment Processing Company)",
+      "position": "Senior Front-End Developer",
+      "period": "01/2024 – 09/2024",
+      "description": [
+        "🚀 Enhanced user experience by 40% with a hybrid PWA system.",
+        "⚡ Optimized POS screens with Astro and Vue.js for 1-second load times.",
+        "📋 Standardized commits with BIOME and Lefthook (100% consistency).",
+        "⏱️ Reduced response times from 30ms to 5ms (83% improvement)."
+      ]
+    },
+    {
+      "company": "CREDIT BANK OF PERU (BCP)",
+      "position": "Senior Front-End Developer",
+      "period": "02/2024 – 07/2024",
+      "description": [
+        "🛠️ Built Angular 16 banking interfaces with 80%+ test coverage.",
+        "🤖 Automated production deployments with Jenkins.",
+        "📊 Ensured task alignment with BDD criteria using Scrum in Jira.",
+        "🐞 Reduced bug resolution time by 25% via Jira optimization."
+      ]
+    },
+    {
+      "company": "CAJA HUANCAYO – FINANCIAL INSTITUTION",
+      "position": "Systems Development Analyst",
+      "period": "07/2023 – 12/2023",
+      "description": [
+        "🔒 Achieved PCI DSS v4.0 compliance, reducing vulnerabilities by 40%.",
+        "🛡️ Protected infrastructure with OWASP TOP 10 security standards."
+      ]
+    },
+    {
+      "company": "HUANCAYO WELFARE SOCIETY",
+      "position": "Systems Development Analyst",
+      "period": "11/2020 – 06/2023",
+      "description": [
+        "📦 Automated logistics and inventory processes, cutting times by 20%.",
+        "💾 Optimized databases with MySQL, improving query efficiency.",
+        "🛠️ Resolved IT issues, enhancing system operability by 30%.",
+        "💳 Implemented billing and loan management systems to optimize finances."
+      ]
+    }
+  ]
+}

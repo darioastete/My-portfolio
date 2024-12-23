@@ -1,0 +1,22 @@
+---
+const { award } = Astro.props;
+import moment from "moment";
+
+award.date = moment(award.release).format("MMMM YYYY");
+---
+
+<div class="bg-white rounded-lg flex justify-center gap-3 flex-col  shadow-md hover:shadow-xl hover:scale-105 duration-300 lg:w-[30%] p-5">
+    <span class="text-gray-500">{award.date}</span>
+    <picture class="p-5">
+        <img src={award.image} alt={award.title}>
+    </picture>
+    <div class="text-center text-gray-400 text-sm flex flex-col gap-2">
+        <h4 class="text-lg text-center text-black">
+            {award.title}
+        </h4>
+        <p>{award.description}</p>
+        <small class="text-gray-700">
+            <a href={award.url} target="_blank" class="hover:text-blue-400 duration-300 text-xs">+ More Information...</a>
+        </small>
+    </div>
+</div>

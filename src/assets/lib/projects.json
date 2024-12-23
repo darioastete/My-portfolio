@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "E-commerce Platform",
+      "description": "A full-stack e-commerce solution with React and Node.js",
+      "image": "https://via.placeholder.com/400x300",
+      "tags": ["React", "Node.js", "MongoDB"],
+      "link": "#"
+    },
+    {
+      "title": "Task Management App",
+      "description": "Real-time task management application with collaborative features",
+      "image": "https://via.placeholder.com/400x300",
+      "tags": ["Vue.js", "Firebase", "Tailwind"],
+      "link": "#"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "Modern portfolio website built with Astro and Tailwind CSS",
+      "image": "https://via.placeholder.com/400x300",
+      "tags": ["Astro", "Tailwind CSS"],
+      "link": "#"
+    }
+  ]
+}

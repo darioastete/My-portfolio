@@ -1,0 +1,53 @@
+---
+import Home from "./ScreenHome.astro";
+import { data } from "../assets/lib/skills.json";
+import CardSkill from "./CardSkill.astro";
+---
+
+<Home id="skills">
+  <div class="">
+    <div class="flex items-center justify-center"> 
+      <h3 class="text-3xl">Skills</h3>
+    </div>
+    <!-- <div class="[grid-area: description] flex items-center justify-center text-2xl p-5">
+      <p>From concept to solution, we shape authentic identities through integrated design.</p>
+    </div>
+    <div class="[grid-area: description] flex flex-col justify-around items-center">
+      <span class="text-xl">Years Experience</span>
+      <span>
+        * Creative Design
+      </span>
+    </div> -->
+    <!-- <div class="[grid-area: skills]"> -->
+      <div class="skills-template grid p-5 gap-3">
+        { data.map((skill) => (
+          <CardSkill skill={skill}  />
+        ))
+        }
+      </div>
+    <!-- </div> -->
+  </div>
+</Home>
+
+<style>
+/* .master {
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 20% 1fr;
+  grid-template-areas: "years description" 
+  "experience skills";
+} */
+
+/* .skills-template {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "skills skills" 
+  "skills skills";
+} */
+
+.skills-template {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adaptable */
+  gap: 1rem; /* Espacio entre elementos */
+  padding: 1rem;
+}
+</style>

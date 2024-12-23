@@ -1,0 +1,39 @@
+---
+const { skill } = Astro.props;
+---
+
+<div class="card-template bg-white w-full rounded-md p-5 shadow-md justify-center gap-2">
+    <div class="title text-center">
+        <h3 class="text-xl font-bold">{skill.name}</h3>
+    </div>
+    <!-- <div class="description">
+        <p class="text-gray-400 text-xs font-light text-balance hidden xl:block" >{skill.description}</p>
+    </div> -->
+    <div class="scores">
+        <div class="flex gap-2 flex-col">
+            {
+                skill.skills.map((skill:any) => (
+                <div class="flex items-center gap-2">
+                    <div class="relative group">
+                        <picture class="">   
+                            <img src={skill.image} alt={skill.name} class="w-6 hover:scale-150 duration-150">
+                        </picture>
+                        <span class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block bg-gray-800 text-white text-xs rounded py-1 px-2">
+                            {skill.name}
+                        </span>
+                    </div>
+                    <div class=""><h1>{skill.score}</h1></div>
+                </div>
+                ))
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+.card-template {
+    display: grid;
+    grid-template-rows: 2rem 1fr;
+    grid-template-columns: 1fr;
+}
+</style>
