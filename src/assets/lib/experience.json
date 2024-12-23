@@ -2,6 +2,7 @@
   "data": [
     {
       "company": "CULQI (Payment Processing Company)",
+      "url_company": "https://culqi.com/",
       "position": "Senior Front-End Developer",
       "period": "01/2024 – 09/2024",
       "description": [
@@ -13,6 +14,7 @@
     },
     {
       "company": "CREDIT BANK OF PERU (BCP)",
+      "url_company": "https://www.bcpmiami.com/",
       "position": "Senior Front-End Developer",
       "period": "02/2024 – 07/2024",
       "description": [
@@ -24,6 +26,7 @@
     },
     {
       "company": "CAJA HUANCAYO – FINANCIAL INSTITUTION",
+      "url_company": "https://www.cajahuancayo.com.pe/",
       "position": "Systems Development Analyst",
       "period": "07/2023 – 12/2023",
       "description": [
@@ -33,6 +36,7 @@
     },
     {
       "company": "HUANCAYO WELFARE SOCIETY",
+      "url_company": "https://www.beneficenciadehuancayo.org",
       "position": "Systems Development Analyst",
       "period": "11/2020 – 06/2023",
       "description": [

@@ -1,44 +1,44 @@
 {
   "data": [
     {
-      "name": "Front-End Web",
+      "name": "Front End",
       "description": "Creating dynamic websites with cutting-edge technologies, crafting stunning and responsive interfaces.",
       "image": "/icons/colorize/web-development.svg",
       "skills": [
         {
           "name": "HTML",
           "image": "/icons/colorize/html.svg",
-          "score": 90
+          "score": 100
         },
         {
           "name": "CSS",
           "image": "/icons/colorize/css.svg",
-          "score": 90
+          "score": 100
         },
         {
           "name": "JavasScript",
           "image": "/icons/colorize/javascript.svg",
-          "score": 90
+          "score": 100
         },
         {
           "name": "TypeScript",
           "image": "/icons/colorize/typescript.svg",
-          "score": 90
+          "score": 100
         },
         {
           "name": "Astro",
           "image": "/icons/colorize/astro.svg",
-          "score": 90
-        },
-        {
-          "name": "Angular",
-          "image": "/icons/colorize/angular.svg",
-          "score": 90
+          "score": 100
         },
         {
           "name": "Vue",
           "image": "/icons/colorize/vue.svg",
-          "score": 90
+          "score": 100
+        },
+        {
+          "name": "Angular",
+          "image": "/icons/colorize/angular.svg",
+          "score": 95
         }
       ]
     },
@@ -50,42 +50,52 @@
         {
           "name": "PWA",
           "image": "/icons/colorize/pwa.svg",
-          "score": 90
+          "score": 100
         },
         {
           "name": "Kotlin",
           "image": "/icons/colorize/kotlin.svg",
-          "score": 90
+          "score": 30
         },
         {
           "name": "Swift",
           "image": "/icons/colorize/swift.svg",
-          "score": 90
+          "score": 20
         }
       ]
     },
     {
-      "name": "Back-End",
+      "name": "Back End",
       "description": "Developing secure and scalable server-side apps, integrating with front-end for a smooth user experience.",
       "image": "/icons/colorize/backend-development.svg",
       "skills": [
         {
           "name": "Node.js",
           "image": "/icons/colorize/nodejs.svg",
-          "score": 90
+          "score": 100
+        },
+        {
+          "name": "Laravel",
+          "image": "/icons/colorize/laravel.svg",
+          "score": 100
         },
         {
           "name": "Nestjs",
           "image": "/icons/colorize/nestjs.svg",
-          "score": 90
+          "score": 85
         },
         {
           "name": "MongoDB",
           "image": "/icons/colorize/mongo.svg",
+          "score": 75
+        },
+        {
+          "name": "Mysql",
+          "image": "/icons/colorize/mysql.svg",
           "score": 90
         },
         {
-          "name": "SQL",
+          "name": "SQL Server",
           "image": "/icons/colorize/sql.svg",
           "score": 90
         }
@@ -99,12 +109,12 @@
         {
           "name": "Scrum",
           "image": "/icons/colorize/scrum.svg",
-          "score": 90
+          "score": 100
         },
         {
           "name": "XP",
           "image": "/icons/colorize/xp.svg",
-          "score": 90
+          "score": 50
         }
       ]
     },
@@ -116,22 +126,22 @@
         {
           "name": "Docker",
           "image": "/icons/colorize/docker.svg",
-          "score": 90
+          "score": 95
         },
         {
           "name": "Git",
           "image": "/icons/colorize/git.svg",
-          "score": 90
+          "score": 100
         },
         {
           "name": "Jenkins",
           "image": "/icons/colorize/jenkins.svg",
-          "score": 90
+          "score": 45
         },
         {
           "name": "Vercel",
           "image": "/icons/colorize/vercel.svg",
-          "score": 90
+          "score": 80
         }
       ]
     },
@@ -143,7 +153,7 @@
         {
           "name": "AWS",
           "image": "/icons/colorize/aws.svg",
-          "score": 90
+          "score": 75
         }
       ]
     }

@@ -10,10 +10,10 @@ const { skill } = Astro.props;
         <p class="text-gray-400 text-xs font-light text-balance hidden xl:block" >{skill.description}</p>
     </div> -->
     <div class="scores">
-        <div class="flex gap-2 flex-col">
+        <div class="flex flex-col gap-3">
             {
                 skill.skills.map((skill:any) => (
-                <div class="flex items-center gap-2">
+                <div class="score gap-2">
                     <div class="relative group">
                         <picture class="">   
                             <img src={skill.image} alt={skill.name} class="w-6 hover:scale-150 duration-150">
@@ -22,7 +22,10 @@ const { skill } = Astro.props;
                             {skill.name}
                         </span>
                     </div>
-                    <div class=""><h1>{skill.score}</h1></div>
+                    <div class="bg-gray-300 h-2 rounded-full transition-all duration-700 ease-out hover:bg-gray-400" style={`width: ${skill.score}%`}
+                    >
+                    </div>
+                    <div class="text-xs text-gray-700"><h1>{skill.score}%</h1></div>
                 </div>
                 ))
             }
@@ -35,5 +38,11 @@ const { skill } = Astro.props;
     display: grid;
     grid-template-rows: 2rem 1fr;
     grid-template-columns: 1fr;
+}
+
+.score {
+    display: grid;
+    grid-template-columns: .5fr 1fr 0.5fr;
+    align-items: center;
 }
 </style>
