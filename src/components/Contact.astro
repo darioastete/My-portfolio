@@ -1,16 +1,16 @@
 ---
 import Home from "./ScreenHome.astro";
 interface SocialLink {
-    platform: string;
-    url: string;
-    icon: string;
+	platform: string;
+	url: string;
+	icon: string;
 }
 
 interface Props {
-    email: string;
-    phone: string;
-    location: string;
-    socialLinks: SocialLink[];
+	email: string;
+	phone: string;
+	location: string;
+	socialLinks: SocialLink[];
 }
 
 const { email, phone, location, socialLinks } = Astro.props;

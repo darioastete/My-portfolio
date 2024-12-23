@@ -1,22 +1,22 @@
 ---
 import Home from "./ScreenHome.astro";
 interface Project {
-  title: string;
-  description: {
-    en: string;
-    es: string;
-  };
-  image: string;
-  tags: Tag[];
-  link: string  
+	title: string;
+	description: {
+		en: string;
+		es: string;
+	};
+	image: string;
+	tags: Tag[];
+	link: string;
 }
 interface Tag {
-  name: string;
-  image: string;
+	name: string;
+	image: string;
 }
 
 interface Props {
-    projects: Project[];
+	projects: Project[];
 }
 
 const { projects } = Astro.props;

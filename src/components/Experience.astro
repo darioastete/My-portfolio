@@ -1,15 +1,15 @@
 ---
 import Home from "./ScreenHome.astro";
 interface Experience {
-    company: string;
-    position: string;
-    period: string;
-    url_company: string;
-    description: string[];
+	company: string;
+	position: string;
+	period: string;
+	url_company: string;
+	description: string[];
 }
 
 interface Props {
-    experiences: Experience[];
+	experiences: Experience[];
 }
 
 const { experiences } = Astro.props;

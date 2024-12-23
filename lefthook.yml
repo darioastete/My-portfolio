@@ -1,38 +1,3 @@
-# EXAMPLE USAGE:
-#
-#   Refer for explanation to following link:
-#   https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md
-#
-# pre-push:
-#   commands:
-#     packages-audit:
-#       tags: frontend security
-#       run: yarn audit
-#     gems-audit:
-#       tags: backend security
-#       run: bundle audit
-#
-# pre-commit:
-#   parallel: true
-#   commands:
-#     eslint:
-#       glob: "*.{js,ts,jsx,tsx}"
-#       run: yarn eslint {staged_files}
-#     rubocop:
-#       tags: backend style
-#       glob: "*.rb"
-#       exclude: '(^|/)(application|routes)\.rb$'
-#       run: bundle exec rubocop --force-exclusion {all_files}
-#     govet:
-#       tags: backend style
-#       files: git ls-files -m
-#       glob: "*.go"
-#       run: go vet {files}
-#   scripts:
-#     "hello.js":
-#       runner: node
-#     "any.go":
-#       runner: go run
 pre-push:
   commands:
     check:
@@ -45,6 +10,22 @@ commit-msg:
       runner: bash
 
 pre-commit:
-  check:
-    glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
-    run: npx @biomejs/biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files} && git update-index --again
+  commands:
+    format_with_biome:
+      run: |
+        npx @biomejs/biome format --write {staged_files}
+        git add {staged_files}
+    check:
+      run: |
+        npx @biomejs/biome check --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
+        if [ $? -ne 0 ]; then
+          echo "Biome ha encontrado errores. Corrige los errores antes de hacer commit."
+          exit 1
+        fi
+    build_check:
+      run: |
+        npm run build
+        if [ $? -ne 0 ]; then
+          echo "Error en la construcción del proyecto. Corrige los errores antes de hacer commit."
+          exit 1
+        fi

@@ -1,50 +1,50 @@
 {
-  "projects": [
-    {
-      "title": "Official Website for Extilsa",
-      "description": {
-        "en": "Developed a full website for Extilsa with product listings and a dashboard for content management, hosted on Google Cloud.",
-        "es": "Desarrollamos la web completa para Extilsa con listados de productos y un dashboard para la gestión de contenido, alojada en Google Cloud."
-      },
-      "image": "https://via.placeholder.com/400x300",
-      "tags": [
-        { "name": "Angular", "image": "/icons/colorize/angular.svg" },
-        { "name": "Sass", "image": "/icons/colorize/sass.svg" },
-        { "name": "MySQL", "image": "/icons/colorize/sql.svg" },
-        { "name": "Node.js", "image": "/icons/colorize/nodejs.svg" },
-        { "name": "GoogleCloud", "image": "/icons/colorize/googlecloud.svg" }
-      ],
-      "link": "https://extilsaperu.com"
-    },
-    {
-      "title": "ERP for Sociedad de Beneficencia de Huancayo",
-      "description": {
-        "en": "Developed an ERP system for complete logistics and inventory management.",
-        "es": "Desarrollé un sistema ERP para control total de logística y gestión de inventarios."
-      },
-      "image": "https://via.placeholder.com/400x300",
-      "tags": [
-        { "name": "Vue.js", "image": "/icons/colorize/vue.svg" },
-        { "name": "Laravel", "image": "/icons/colorize/laravel.svg" },
-        { "name": "MySQL", "image": "/icons/colorize/mysql.svg" },
-        { "name": "IIS", "image": "/icons/colorize/windows.svg" }
-      ],
-      "link": "https://sbhuancayo.website/"
-    },
-    {
-      "title": "Financial Management System for Casa de Préstamos Huancayo",
-      "description": {
-        "en": "Developed a financial management system optimizing payment tracking and credit history management.",
-        "es": "Desarrollé un sistema financiero que optimiza el seguimiento de pagos y la gestión de historial crediticio."
-      },
-      "image": "https://via.placeholder.com/400x300",
-      "tags": [
-        { "name": "Vue.js", "image": "/icons/colorize/vue.svg" },
-        { "name": "Laravel", "image": "/icons/colorize/laravel.svg" },
-        { "name": "MySQL", "image": "/icons/colorize/mysql.svg" },
-        { "name": "IIS", "image": "/icons/colorize/windows.svg" }
-      ],
-      "link": "https://admin.casadeprestamoshyo.com/"
-    }
-  ]
+	"projects": [
+		{
+			"title": "Official Website for Extilsa",
+			"description": {
+				"en": "Developed a full website for Extilsa with product listings and a dashboard for content management, hosted on Google Cloud.",
+				"es": "Desarrollamos la web completa para Extilsa con listados de productos y un dashboard para la gestión de contenido, alojada en Google Cloud."
+			},
+			"image": "https://via.placeholder.com/400x300",
+			"tags": [
+				{ "name": "Angular", "image": "/icons/colorize/angular.svg" },
+				{ "name": "Sass", "image": "/icons/colorize/sass.svg" },
+				{ "name": "MySQL", "image": "/icons/colorize/sql.svg" },
+				{ "name": "Node.js", "image": "/icons/colorize/nodejs.svg" },
+				{ "name": "GoogleCloud", "image": "/icons/colorize/googlecloud.svg" }
+			],
+			"link": "https://extilsaperu.com"
+		},
+		{
+			"title": "ERP for Sociedad de Beneficencia de Huancayo",
+			"description": {
+				"en": "Developed an ERP system for complete logistics and inventory management.",
+				"es": "Desarrollé un sistema ERP para control total de logística y gestión de inventarios."
+			},
+			"image": "https://via.placeholder.com/400x300",
+			"tags": [
+				{ "name": "Vue.js", "image": "/icons/colorize/vue.svg" },
+				{ "name": "Laravel", "image": "/icons/colorize/laravel.svg" },
+				{ "name": "MySQL", "image": "/icons/colorize/mysql.svg" },
+				{ "name": "IIS", "image": "/icons/colorize/windows.svg" }
+			],
+			"link": "https://sbhuancayo.website/"
+		},
+		{
+			"title": "Financial Management System for Casa de Préstamos Huancayo",
+			"description": {
+				"en": "Developed a financial management system optimizing payment tracking and credit history management.",
+				"es": "Desarrollé un sistema financiero que optimiza el seguimiento de pagos y la gestión de historial crediticio."
+			},
+			"image": "https://via.placeholder.com/400x300",
+			"tags": [
+				{ "name": "Vue.js", "image": "/icons/colorize/vue.svg" },
+				{ "name": "Laravel", "image": "/icons/colorize/laravel.svg" },
+				{ "name": "MySQL", "image": "/icons/colorize/mysql.svg" },
+				{ "name": "IIS", "image": "/icons/colorize/windows.svg" }
+			],
+			"link": "https://admin.casadeprestamoshyo.com/"
+		}
+	]
 }

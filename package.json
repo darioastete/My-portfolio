@@ -11,7 +11,8 @@
 		"prepare": "lefthook install",
 		"format": "npx @biomejs/biome format --write .",
 		"lint": "npx @biomejs/biome lint --write src/*",
-		"check": "npx @biomejs/biome check --write src/*"
+		"check": "npx @biomejs/biome check --write src/*",
+		"test": "vitest run"
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.8.3",
